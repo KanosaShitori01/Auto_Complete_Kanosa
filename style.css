@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title{
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+}
+.box_search{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: red;
+}
+.box_search input[type="text"]{
+    padding: 10px;
+    width: 100%;
+}
+.box_search input[type="submit"]{
+    padding: 1em 2em;
+}
+.result{
+    width: 100%;
+}
+.result ul{
+    list-style: none;
+}
+.result ul li{
+    width: 88%;
+    padding: 1em;
+    background-color: silver;
+}

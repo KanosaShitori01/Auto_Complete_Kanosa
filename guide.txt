@@ -1,0 +1,1 @@
+Phải bỏ folder vào xampp mới chạy được. Và nhớ nhập file sql vào mySQL trên xampp nữa
